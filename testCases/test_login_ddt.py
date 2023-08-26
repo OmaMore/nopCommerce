@@ -11,7 +11,6 @@ class Test_002_DDT_login:
     path=".//TestData//test_data.xlsx"
     logger=LogGen.loggen()
 
-
     def test_login_ddt(self, setup_driver):
         self.logger.info('***** Test_002_DDT_login****')
         self.logger.info("***********verifying login test**************")
